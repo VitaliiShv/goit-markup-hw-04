@@ -340,11 +340,13 @@ ul {
   height: 20px;
   fill: #afb1b8;
 }
-.icon-bg:hover {
+.icon-bg:hover,
+.icon-bg:focus {
   background-color: var(--accent-color);
 }
 
-.icon-bg:hover .icon {
+.icon-bg:hover .icon,
+.icon-bg:focus .icon {
   fill: white;
 }
 
@@ -368,11 +370,13 @@ ul {
   height: 60px;
   fill: #afb1b8;
 }
-.item-client:hover .icon {
+.item-client:hover .icon,
+.item-client:focus .icon {
   fill: var(--accent-color);
 }
 
-.item-client:hover {
+.item-client:hover,
+.item-client:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -471,13 +475,15 @@ ul {
 .footer-contacts .icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: var(--white);
 }
-.footer .icon-bg:hover {
+.footer .icon-bg:hover,
+.footer .icon-bg:focus {
   background-color: var(--accent-color);
 }
 
-.footer .icon-bg:hover .icon {
+.footer .icon-bg:hover .icon,
+.footer .icon-bg:focus .icon {
   fill: white;
 }
 
